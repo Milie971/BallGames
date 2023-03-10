@@ -1,0 +1,129 @@
+#btn-blue {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: fast;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fast {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  70% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#btn-green {
+  background-color: forestgreen;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: fast1;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes fast1 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 200px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  70% {
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+#btn-red {
+  background-color: rgb(173, 22, 22);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: lose;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+}
+@keyframes lose {
+  0% {
+    left: 50px;
+    top: 0px;
+  }
+  10% {
+    left: 100px;
+    top: 0px;
+  }
+  25% {
+    left: -50px;
+    /* top: 100px; */
+  }
+
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  70% {
+    /* left: 200px; */
+    top: 0px;
+  }
+
+  90% {
+    left: 0px;
+    top: 200px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#compteur {
+  position: relative;
+  top: 300px;
+  background-color: burlywood;
+  height: 100px;
+  width: 100px;
+}
+#start {
+  width: 70px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: brown;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  align-content: center;
+}
